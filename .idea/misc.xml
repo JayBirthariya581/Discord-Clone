@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/drawable/_main1.xml" value="0.24375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/drawable/banner_back.xml" value="0.24375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/drawable/btn_back.xml" value="0.24375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/drawable/btn_back_main.xml" value="0.24375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/drawable/l1_back.xml" value="0.24375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/drawable/l2_back.xml" value="0.24375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/drawable/menu_back.xml" value="0.24375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/drawable/selector.xml" value="0.24375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/drawable/style1.xml" value="0.24375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/ServerAdminDialog.xml" value="0.1" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/ServerMemberDialog.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/activity_channel_friends.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/activity_channel_list.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/activity_chat.xml" value="0.25" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/activity_chat_demo.xml" value="0.33" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/activity_create_announcement.xml" value="0.21910112359550563" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/activity_create_channel.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/activity_create_server.xml" value="0.22" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/activity_direct_chat.xml" value="0.25" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/activity_forgot_password.xml" value="0.22" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/activity_image_viewer.xml" value="0.1935185185185185" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/activity_list_server_settings.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/activity_login.xml" value="0.19610507246376813" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/activity_main_container.xml" value="0.25" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/activity_register.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/activity_register_email.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/activity_rename_channel.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/activity_search_friend.xml" value="0.25" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/activity_server_info_list.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/activity_server_invite_list.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/activity_server_invite_member.xml" value="0.20625" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/activity_server_invites.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/activity_server_member_list.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/activity_server_setting.xml" value="0.25" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/activity_update_profile.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/activity_update_server.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/activity_verify_phone_no.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/card_announcement.xml" value="0.33" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/card_channel_friends.xml" value="0.25" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/card_channel_list.xml" value="0.6105072463768116" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/card_friend_list.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/card_friend_request.xml" value="0.25" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/card_server_admin.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/card_server_info_list.xml" value="0.33" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/card_server_list.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/card_server_member.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/card_sv_invite.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/content_main.xml" value="0.1935185185185185" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/delete_ann.xml" value="0.21910112359550563" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/delete_channel.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/delete_dialog.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/fragment_announcement.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/fragment_channel_friend.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/fragment_channel_list.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/fragment_friend_list.xml" value="0.25" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/fragment_friend_request.xml" value="0.25" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/fragment_friends.xml" value="0.25" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/fragment_server_list.xml" value="0.25" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/item_receive.xml" value="0.7206349206349206" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/item_sent.xml" value="0.33" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/server_admin_dialog.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/layout/server_card_dialog.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2234375" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/menu/chat_menu.xml" value="0.20555555555555555" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/menu/overflow_demo.xml" value="0.22135416666666666" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/menu/overflow_menu.xml" value="0.22135416666666666" />
+        <entry key="..\:/--- STUFF ---/Work/Coding/Project/Taeru/App/ChatsApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.24375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

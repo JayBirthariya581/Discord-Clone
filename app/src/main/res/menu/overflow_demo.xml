@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/blankFragment"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_video"
+        android:title="Video Call" />
+    <item
+        android:id="@+id/blankFragment2"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_call"
+        android:title="Voice Call" />
+
+    <item
+        android:id="@+id/blankFragment3"
+        app:showAsAction="ifRoom"
+        android:title="Profile" />
+
+
+    <item
+        android:id="@+id/blankFragment4"
+
+        android:title="Profile" />
+
+    <item
+        android:id="@+id/blankFragment5"
+
+        android:title="Profile" />
+</group>
+</menu>

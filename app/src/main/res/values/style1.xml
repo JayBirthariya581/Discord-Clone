@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+
+
+    </style>
+
+
+    <style name="myTextInputLabel" parent="TextAppearance.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="android:textColorHint">@android:color/tertiary_text_dark</item>
+        <item name="android:textSize">20sp</item>
+        <item name="colorAccent">@color/blue</item>
+        <item name="colorControlNormal">@android:color/tertiary_text_dark</item>
+        <item name="colorControlActivated">@android:color/holo_orange_light</item>
+    </style>
+
+
+    <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">@color/grey</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
+
+</resources>

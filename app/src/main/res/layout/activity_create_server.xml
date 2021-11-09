@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/status"
+    android:layout_height="match_parent"
+    tools:context=".Activities.SetupProfileActivity">
+
+    <ImageView
+        android:id="@+id/server_Invites"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_sever_invite"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:layout_margin="14dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageViewServer"
+        android:layout_width="150dp"
+
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/main12" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:cardCornerRadius="25dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/imageViewServer"
+        app:layout_constraintEnd_toEndOf="@id/imageViewServer">
+
+
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/cam"
+            android:layout_gravity="center"
+            app:tint="@color/blue" />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    <TextView
+        android:id="@+id/phoneLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Server Info"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewServer"
+        app:layout_constraintStart_toStartOf="@+id/imageViewServer"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewServer" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="Please set server name and an optional server profile image."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/phoneLbl"
+        app:layout_constraintStart_toStartOf="@+id/phoneLbl"
+        app:layout_constraintTop_toBottomOf="@+id/phoneLbl" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="@color/status"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <LinearLayout
+            android:background="@color/status"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <!--<EditText
+                android:id="@+id/nameBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textbox_outline"
+                android:ems="10"
+                android:hint="Type your name"
+                android:padding="10dp"
+                 />-->
+
+            <!--<Button
+                android:id="@+id/continueBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/green"
+                android:text="Setup Profile" />-->
+
+
+
+            <!--Full Name-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/ServerNameRegisterL"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:textColorHint="@color/white"
+                app:boxStrokeColor="@color/grey"
+                android:hint="Server Name"
+
+                app:helperTextTextAppearance="@color/white"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:textColorHint="@color/white"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/white"
+                    android:inputType="text"
+                    android:layout_height="wrap_content" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!--
+
+                        &lt;!&ndash;Phone&ndash;&gt;
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/phoneRegisterL"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:hint="Phone No"
+
+
+                            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/phoneRegister"
+                                android:layout_width="match_parent"
+                                android:inputType="number"
+                                android:layout_height="wrap_content"/>
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+
+            -->
+
+
+
+
+
+
+
+
+
+            <!---->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/CreateServer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/blue"
+                android:text="Create"
+                android:textColor="#fff" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="2dp">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/status2"
+
+        app:cardCornerRadius="5dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/senderName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/blue"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toStartOf="parent"
+
+                    app:layout_constraintTop_toTopOf="parent"
+
+                    />
+
+
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="2dp"
+                    android:scaleType="centerCrop"
+                    android:visibility="gone"
+                    app:srcCompat="@drawable/avatar"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/senderName"
+                    app:layout_constraintEnd_toEndOf="parent"
+
+                    />
+
+                <TextView
+                    android:id="@+id/message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:maxWidth="250dp"
+                    android:textColor="@color/white"
+                    android:paddingBottom="5dp"
+                    android:text="TextView"
+                    android:textSize="17sp"
+                    app:layout_constraintTop_toBottomOf="@id/senderName"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/messageTime"
+
+                    />
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/messageTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:paddingRight="5dp"
+                android:text="10:00"
+                android:layout_margin="3dp"
+                android:textColor="@color/white"
+                android:textSize="8sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ImageView
+        android:id="@+id/feeling"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cv"
+
+        app:layout_constraintTop_toTopOf="@+id/cv"
+        app:srcCompat="@drawable/ic_fb_love" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

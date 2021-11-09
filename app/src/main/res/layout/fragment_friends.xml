@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#37373d"
+    android:id="@+id/fragment_friends"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.FriendsFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_ninja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#37373d"
+
+        android:paddingTop="5dp"
+        android:minHeight="0dp"
+        android:theme="?attr/actionBarTheme"
+        android:contentInsetLeft="0dp"
+        android:contentInsetStart="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        android:contentInsetRight="0dp"
+        android:contentInsetEnd="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetEnd="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+         >
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:fontFamily="@font/poppins"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp"
+                    android:text="Friends"
+                    android:textColor="@color/white"
+                    android:textFontWeight="700"
+                    android:textSize="23sp" />
+
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/subToolbar"
+        android:layout_width="match_parent"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_ninja"
+        >
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/add_friend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:layout_marginLeft="16dp"
+            android:text="Add Friend"
+            android:textSize="10sp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:background="@drawable/_main1"
+            android:textColor="@color/white"
+
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/include"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:tabGravity="fill"
+            app:tabTextAppearance="@style/MyCustomTextAppearance"
+            android:background="#37373d"
+            android:layout_marginTop="2dp"
+            android:backgroundTint="#37373d"
+            app:tabIndicatorColor="@color/blue"
+            app:tabIndicatorHeight="3.5dp"
+
+            app:tabSelectedTextColor="@color/white"
+
+            app:tabTextColor="#fff"
+
+            app:layout_constraintTop_toBottomOf="@+id/subToolbar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            >
+
+
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/FriendList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Friend List" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/FriendRequest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Friend Request" />
+
+
+        </com.google.android.material.tabs.TabLayout>
+
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_below="@id/include"
+            android:layout_marginTop="0dp"
+            android:id="@+id/fragmentContainer"
+            app:layout_constraintTop_toBottomOf="@id/include"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+
+
+
+        </androidx.viewpager.widget.ViewPager>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

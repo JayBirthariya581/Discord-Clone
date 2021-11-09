@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "610665773269",
+    "project_id": "topia-59524",
+    "storage_bucket": "topia-59524.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610665773269:android:5932ac61b46f8a71b44a5c",
+        "android_client_info": {
+          "package_name": "com.topia.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610665773269-1a4v78obai0nl67fs3tcs6snpaeanvmo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.topia.chat",
+            "certificate_hash": "e1e2fb2b873d1843a399e535b6d86d079027edec"
+          }
+        },
+        {
+          "client_id": "610665773269-icf3lto253othsubmou4nrhks2aohu2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK33eI50rIH6Gjgw98A3n2yNdrZ-6mD88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610665773269-icf3lto253othsubmou4nrhks2aohu2k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/status"
+    android:id="@+id/fragment_profile"
+    android:layout_height="match_parent"
+
+    tools:context=".Activities.MainContainerActivity"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="60dp"
+        >
+    <ImageView
+        android:background="@color/status"
+        android:id="@+id/back_dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="150dp"
+        android:maxHeight="200dp"
+        android:scaleType="fitCenter"
+        android:backgroundTint="@color/status2"
+        android:foreground="@drawable/banner_back"
+        android:overScrollMode="ifContentScrolls"
+        android:src="@color/status"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileimage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/avatar"
+        android:translationY="-60dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/back_dp" />
+
+    <TextView
+        android:id="@+id/UserNameProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:text="Server Info"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back_dp" />
+
+    <TextView
+        android:id="@+id/profile_user_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Please Set"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UserNameProfile" />
+
+            <!---->
+            <androidx.appcompat.widget.AppCompatButton
+
+                android:id="@+id/updateProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textAllCaps="false"
+                android:background="@color/status2"
+                android:text="Update Profile"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/profile_user_email"
+                android:textColor="#fff" />
+
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@color/status2"
+                android:text="Log Out"
+                android:textAllCaps="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/updateProfile"
+                android:textColor="#fff" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

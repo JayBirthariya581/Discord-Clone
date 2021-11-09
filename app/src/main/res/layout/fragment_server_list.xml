@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/status"
+
+
+    android:id="@+id/server_list_fragment"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ServerListFragment">
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/swiperefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:paddingTop="5dp"
+        android:showDividers="end"
+        android:outlineSpotShadowColor="@color/black"
+        android:paddingLeft="5dp"
+        android:background="@drawable/l1_back"
+        android:paddingRight="5dp"
+        android:elevation="5dp"
+        android:outlineAmbientShadowColor="@color/status2"
+
+        android:orientation="vertical"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="60dp"
+            android:layout_gravity="center_horizontal"
+            app:cardCornerRadius="30dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#2e3136"
+            android:layout_height="60dp"
+
+
+            >
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+                        android:id="@+id/a2"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:src="@drawable/people"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+
+
+                        app:tint="@color/white" />
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/requestMarker"
+                        android:layout_width="8dp"
+                        android:layout_height="8dp"
+                        android:backgroundTint="@color/blue"
+                        android:visibility="gone"
+                        app:cardCornerRadius="4dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.76"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.8" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+
+        <View
+            android:id="@+id/view9"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="12dp"
+
+
+            android:background="@color/grey"
+             />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_server_list"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            />
+
+
+
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/fab"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:elevation="2dp"
+            android:backgroundTint="@color/status"
+            app:cardCornerRadius="30dp"
+
+
+
+            tools:ignore="SpeakableTextPresentCheck" >
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+                <ImageView
+                    android:id="@+id/a1"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_add"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+
+
+                    />
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:backgroundTint="@color/blue"
+                    app:cardCornerRadius="4dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.76"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:id="@+id/inviteMarker"
+                    android:visibility="gone"
+
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.8" />
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fragmentContainerView2"
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="-2dp"
+        android:background="@color/status"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toEndOf="@id/swiperefresh"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/header_servers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/status"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+                android:id="@+id/srl"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+
+
+                >
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/svDP"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:adjustViewBounds="true"
+                        android:background="@color/black"
+                        android:backgroundTint="@color/black"
+                        android:foreground="@drawable/banner_back"
+                        android:src="@drawable/main12"
+                        android:maxHeight="220dp"
+                        android:minHeight="180dp"
+
+
+
+
+                        app:layout_constraintEnd_toEndOf="parent"
+
+
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/svDP1"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+
+
+
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="18dp"
+android:scaleType="fitCenter"
+                        android:layout_marginRight="10dp"
+                        android:elevation="1dp"
+                        android:src="@drawable/right_arrow"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:tint="@color/blue" />
+
+
+                    <TextView
+                        android:id="@+id/Server_Name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_toEndOf="@id/svDP1"
+                        android:elevation="1dp"
+                        android:ellipsize="end"
+                        android:layout_marginRight="10dp"
+                        android:fontFamily="@font/poppins"
+                        android:paddingRight="1dp"
+                        android:singleLine="true"
+                        android:text="loading...."
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textFontWeight="700"
+                        android:textSize="25sp"
+                        app:layout_constraintEnd_toStartOf="@id/server_settings"
+                        app:layout_constraintStart_toEndOf="@id/svDP1"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <ImageView
+                        android:id="@+id/server_settings"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+
+                        android:layout_marginTop="16dp"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/ic_setting"
+                        android:visibility="gone"
+                        app:layout_constraintEnd_toEndOf="parent"
+
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/CreateChannel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="#4f535c"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="10dp"
+            android:text="Create Channel"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/inviteMembers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+
+            android:background="#4f535c"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="10dp"
+            android:text="Invite"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView_cl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+
+
+
+
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/intro"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            app:layout_constraintStart_toEndOf="@id/swiperefresh"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent"
+
+            >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/main12"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/grey"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:text="- You don't have any server -"
+                android:textSize="15sp"/>
+
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/main14"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/grey"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:text="- Create or join a server -"
+                android:textSize="15sp"/>
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/add_friend_back_2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/grey"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:text="- Add friends and Chat -"
+                android:textSize="15sp"/>
+
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
