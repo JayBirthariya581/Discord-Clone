@@ -38,6 +38,6 @@ Discord Clone is an android app that is a clone of the popular communication app
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request
 
-## Author
+## Developer
 
 - [Jay Birthariya](https://github.com/JayBirthariya581)
